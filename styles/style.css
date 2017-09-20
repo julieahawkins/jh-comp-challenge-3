@@ -1,13 +1,13 @@
 *,
 *:before,
 *:after {
-  box-sizing: border-box;
-  letter-spacing: -.05px;
+ 	box-sizing: border-box;
+ 	letter-spacing: -.05px;
 }
 
 body {
-	font-family: 'Open Sans', sans-serif; 
 	display: flex;
+	font-family: 'Open Sans', sans-serif; 
 }
 
 li i, 
@@ -31,30 +31,29 @@ select {
 }
 
 .side-menu-top {
+	align-items: center;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 	height: 180px;
+	justify-content: center;
 }
 
 .user-img {
-	/*background: magenta;*/
 	border-radius: 50%;
 	height: 100px;
 	width: 120px;
 }
 
 .user-dropdown {
+	background: none;
+	border: none;
 	color: #eef2f6;
 	margin: 15px 0px 0px;
-	border: none;
-	background: none;
 }
 
 ul {
-	padding: 15px 0px;
 	list-style: none;
+	padding: 15px 0px;
 }
 
 .side-menu-hr {
@@ -65,8 +64,8 @@ ul {
 .side-menu-nav,
 .list-header {
 	color: #eef2f6;
-	padding: 10px 20px;
 	font-size: 10pt;
+	padding: 10px 20px;
 }
 
 .side-menu-nav:hover {
@@ -95,10 +94,10 @@ ul {
 			/*HEADER STYLES*/
 
 .top-hdr-container {
-	height: 75px;	
+	border-bottom: 1px solid grey;
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
-	border-bottom: 1px solid grey;
+	height: 75px;	
 }
 
 .burger:hover,
@@ -110,19 +109,19 @@ ul {
 }
 
 .top-hdr-icon {
-	font-size: 18pt;
-	color: grey;
-	display: flex;
-	justify-content: center;
 	align-items: center;
 	background: none;
 	border: none;
 	border-left: 1px solid grey;
+	color: grey;
+	display: flex;
+	font-size: 18pt;
+	justify-content: center;
 }
 
 #search-field {
-	font-size: 14pt;
 	border: none;
+	font-size: 14pt;
 	width: 55vw;
 }
 
@@ -131,16 +130,16 @@ ul {
 }
 
 .hdr-content {
-	margin: 70px 30px 50px;
 	display: grid;
 	grid-template-columns: 1fr 275px;
+	margin: 70px 30px 50px;
 }
 
 h1 {
-	padding: 0px 0px 6px 0px;
 	color: #374050;
 	font-size: 20pt;
 	margin: 0px;
+	padding: 0px 0px 6px 0px;
 }
 
 .hdr-link {
@@ -154,40 +153,40 @@ h1 {
 }
 
 .hdr-btn-wrapper {
-	grid-column: 2;
 	display: flex;
+	grid-column: 2;
 	justify-content: flex-end;
 }
 
 .hdr-btn {
-	border: 1px solid grey;
 	background: none;
+	border: 1px solid grey;
 	border-radius: 50%;
-	margin: 0px 5px;
-	height: 40px;
-	width: 40px;
 	color: grey;
+	height: 40px;
+	margin: 0px 5px;
+	width: 40px;
 }
 
 .hdr-btn-lrg {
-	color: grey;
-	margin: 0px 10px;
-	height: 42px;
-    width: 90px;
     background: none;
     border: 1px solid grey;
     border-radius: 50px;
+	color: grey;
+	height: 42px;
+	margin: 0px 10px;
+    width: 90px;
 }
 
 .local-nav {
 	display: flex;
-    padding: 0px;
     margin: 0px 0px 0px 20px;
+    padding: 0px;
 }
 
 .local-nav-item {
-	font-size: 10pt;
 	color: grey;
+	font-size: 10pt;
     padding: 8px;
 }
 
@@ -208,54 +207,27 @@ main {
 }
 
 .data-content {
-	padding: 50px 0px;
-    margin: 0px 10px;
 	display: flex;
 	justify-content: space-around;
+    margin: 0px 10px;
+	padding: 50px 0px;
 }
 
 .graph {
-	/*width: 50%;*/
+	align-items: center;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
 }
-
-/*.graph-1 {
-	justify-content: space-between;
-    display: flex;
-    width: 520px;
-    margin: 20px;
-    padding: 25px 0px;
-}
-
-.circle-graph-outer {
-	justify-content: center;
-    display: flex;
-    width: 150px;
-    border-radius: 50%;
-    background: blue;
-    height: 150px;
-    align-items: center;
-}
-
-.circle-graph-inner {
-	background: lightblue;
-    width: 125px;
-    height: 125px;
-    border-radius: 50%;
-    text-align: center;
-}*/
 
 .graph-1-btn,
 .graph-2-btn {
-	padding: 5px 16px;
-    font-size: 10pt;
-	border-radius: 50px;
-	border: 1px solid grey;
 	background: #fff;
+	border: 1px solid grey;
+	border-radius: 50px;
 	color: #374050;
+    font-size: 10pt;
+	padding: 5px 16px;
 }
 
 .bar-graph {
@@ -264,13 +236,12 @@ main {
 }
 
 
-
 			/*MAIN CONTENT STYLES*/
 
 .main {
-	padding: 70px 15px 0px;
-	justify-content: space-around;
 	display: flex;
+	justify-content: space-around;
+	padding: 70px 15px 0px;
 }
 
 .article-hdr {
@@ -278,19 +249,19 @@ main {
 }
 
 table {
-	margin: 0px 20px;
 	border-collapse: collapse;
+	margin: 0px 20px;
 }
 
 .edit-btn {
-	font-size: 10pt;
-	color: #fff;
 	background: #8798b5;
-	width: 75px;
     border: none;
-    height: 35px;
+	color: #fff;
     display: flex;
+	font-size: 10pt;
+    height: 35px;
     justify-content: space-around;
+	width: 75px;
 }
 
 .job-description {
@@ -298,7 +269,6 @@ table {
 }
 
 th {
-
 	color: #fff;
 	padding: 20px;
 	text-align: left;
@@ -306,47 +276,44 @@ th {
 
 tr {
 	background: #fff;
-	height: 70px;
 	font-size: 10pt;
+	height: 70px;
 }
 
 td {
+	border-bottom: 1px solid grey;
 	line-height: 1.5;
 	padding: 20px;
-	border-bottom: 1px solid grey;
 }
 
 .table-img {
 	border-radius: 50%;
-	width: 50px;
 	height: 50px;
+	width: 50px;
 }
-
-
 
 			/*ASIDE STYLES*/
 
 .main-aside {
-	width: 285px;
-	margin: 0px 20px;
 	display: flex;
 	flex-direction: column;
-	
+	margin: 0px 20px;
+	width: 285px;	
 }
 
 .aside-btn-icon {
-	position: absolute;
 	left: 10px;
+	position: absolute;
 }
 
 .aside-btn {
-	font-size: 11pt;
-	color: #fff;
-	position: relative;
-	margin: 0px 0px 15px;
-    height: 45px;
-    width: 280px;
     border: none;
+	color: #fff;
+	font-size: 11pt;
+    height: 45px;
+	margin: 0px 0px 15px;
+	position: relative;
+    width: 280px;
 }
 
 .face-book {
@@ -372,35 +339,35 @@ td {
 }
 
 .copy-link-description {
-	font-size: 13px;
-    margin: 0px;
-    height: 3em;
     color: grey;
+	font-size: 13px;
+    height: 3em;
+    margin: 0px;
 }
 
 .copy-link-wrapper {
-	display: flex;
 	align-items: center;
+	display: flex;
 }
 
 .copy-link {
-	font-size: 11pt;
-	color: grey;
-	width: 285px;
-	padding: 13px 0px 10px 5px;
     background: #fff;
+	color: grey;
+	font-size: 11pt;
     height: 45px;
     overflow: hidden;
-	white-space: nowrap;
+	padding: 13px 0px 10px 5px;
 	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 285px;
 }
 
 .copy-btn {
 	color: #fff;
 	background: #67b9c0;
-	width: 80px;
 	border: none;
 	height: 45px;
+	width: 80px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -411,21 +378,21 @@ td {
 			/*SIDE MENU STYLES*/
 
 	.side-menu {
+		display: flex;
 		height: 100px;
 		width: 100%;
-		display: flex;
 	}
 
 	.side-menu-top {
-		width: 260px;
-    	height: 100%;
     	flex-direction: row;
+    	height: 100%;
     	justify-content: space-around;
+		width: 260px;
 	}
 
 	.user-img {
-		width: 70px;
 		height: 70px;
+		width: 70px;
 	}
 
 	.user-dropdown {
@@ -436,8 +403,8 @@ td {
 		background: #717e93;
 		border: 1px solid grey;
     	border-radius: 50px;
-    	padding: 10px 25px;
     	margin: 0px 30px;
+    	padding: 10px 25px;
 	}
 
 	.side-menu-nav {
@@ -473,22 +440,22 @@ td {
 			/*ASIDE STYLES*/
 	
 	.main-aside {
-		margin: 0px;
-		width: 100%;
 		display: grid;
 		grid-template-columns: 50% 50%;
 		grid-template-rows: 50% 50%;
+		margin: 0px;
+		width: 100%;
 	}
 
 	.aside-btn-wrapper {
-		justify-content: flex-end;
+		align-items: center;
 		display: flex;
 		flex-direction: column;
-		align-items: center;
-		padding: 0px 7px;
-		grid-row: 2;
 		grid-column: 2;
+		grid-row: 2;
+		justify-content: flex-end;
 		margin: 20px 0px;
+		padding: 0px 7px;
 	}
 
 	.aside-btn {
@@ -502,34 +469,34 @@ td {
 	.aside-link-wrapper1 {
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
-		padding: 0px 0px 0px 38px;
-		grid-row: 1;
 		grid-column: 2;
-		width: 43vw;
+		grid-row: 1;
+		justify-content: center;
 		margin: 20px 0px;
+		padding: 0px 0px 0px 38px;
+		width: 43vw;
 	}
 
 	.aside-link-wrapper2 {
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
-	    padding: 0px 0px 0px 38px;
-		grid-row: 1;
 		grid-column: 1;
-		width: 43vw;
+		grid-row: 1;
+		justify-content: center;
 		margin: 20px 0px;
+	    padding: 0px 0px 0px 38px;
+		width: 43vw;
 	}
 
 	.aside-link-wrapper3 {
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
-	    padding: 0px 0px 0px 38px;		
-		grid-row: 2;
 		grid-column: 1;
-		width: 43vw;
+		grid-row: 2;
+		justify-content: center;
 		margin: 20px 0px;
+	    padding: 0px 0px 0px 38px;		
+		width: 43vw;
 	}
 
 	.copy-link {
@@ -564,9 +531,9 @@ td {
 	}
 
 	.top-hdr-container {
-		height: 130px;
     	grid-template-columns: 1fr 1fr 60vw;
     	grid-template-rows: 1fr 1fr;
+		height: 130px;
 	}
 
 	.top-hdr-icon {
