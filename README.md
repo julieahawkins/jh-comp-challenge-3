@@ -8,4 +8,4 @@ Original image:
 
 
 My version:
-![screenshot](images/static-comp-3.jpg)
+![screenshot](images/static-comp-3.png)
