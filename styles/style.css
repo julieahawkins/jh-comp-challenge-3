@@ -26,7 +26,7 @@ select {
 			/*SIDE MENU STYLES*/
 
 .side-menu {
-	background-color: #374050;
+	background: #374050;
 	width: 60vw;
 }
 
@@ -70,8 +70,25 @@ ul {
 }
 
 .side-menu-nav:hover {
+	color: #374050;
 	background: grey;
 	border-left: 5px solid #45a8ea;
+}
+
+.yellow {
+	color: yellow;
+}
+
+.blue {
+	color: blue;
+}
+
+.red {
+	color: red;
+}
+
+.green {
+	color: green;
 }
 
 
@@ -82,6 +99,14 @@ ul {
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
 	border-bottom: 1px solid grey;
+}
+
+.burger:hover,
+.top-hdr-btn:hover,
+.hdr-btn:hover,
+.hdr-btn-lrg:hover {
+	background: #45a8ea;
+	color: #fff;
 }
 
 .top-hdr-icon {
@@ -291,6 +316,12 @@ td {
 	border-bottom: 1px solid grey;
 }
 
+.table-img {
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+}
+
 
 
 			/*ASIDE STYLES*/
@@ -423,10 +454,6 @@ td {
 		width: 60%;
 	}
 
-	.graph {
-    	justify-content: space-evenly;
-	}
-
 	.graph-1-btn {
 		margin-bottom: 20px;
 	}
@@ -512,8 +539,52 @@ td {
 }
 
 @media screen and (max-width: 650px) {
+	.side-menu {
+		display: none;
+	}
 
-}
+	.burger {
+		background: #374050;
+	}
+
+	.hdr-content {
+		display: flex;
+		flex-direction: column;
+		margin: 20px 20px 0px;
+	}
+
+	.hdr-btn-wrapper {
+		margin: 25px 0px;
+	}
+
+	.local-nav {
+		flex-direction: column;
+    	position: absolute;
+    	width: 120px;
+	}
+
+	.top-hdr-container {
+		height: 130px;
+    	grid-template-columns: 1fr 1fr 60vw;
+    	grid-template-rows: 1fr 1fr;
+	}
+
+	.top-hdr-icon {
+    	width: 20vw;
+	}
+
+	.bar-graph {
+		width: 85vw;
+	}
+
+	.job-description {
+		width: 100px;
+	}
+
+	table {
+		margin: 0px;
+	}
+	
 
 
 
