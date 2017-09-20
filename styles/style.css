@@ -179,9 +179,11 @@ h1 {
 }
 
 .local-nav {
-	display: flex;
+    display: flex;
+	justify-content: space-around;
     margin: 0px 0px 0px 20px;
     padding: 0px;
+    width: 68vw;
 }
 
 .local-nav-item {
@@ -231,13 +233,13 @@ main {
 }
 
 .pie-graph {
-	width: 400px;
-    margin: 50px 20px;
+	margin: 30px;
+	width: 35vw
 }
 
 .bar-graph {
 	margin: 20px;
-	width: 90%;
+	width: 80%;
 }
 
 
@@ -380,8 +382,6 @@ td {
 		flex-direction: column;
 	}
 
-			/*SIDE MENU STYLES*/
-
 	.side-menu {
 		display: flex;
 		height: 100px;
@@ -416,13 +416,16 @@ td {
 		display: none;
 	}
 
-			/*MAIN CONTENT-DATA STYLES*/
+	.local-nav {
+		width: 90vw;
+	}
 
 	.data-content {
 		flex-direction: column;
 	}
 
-	.bar-graph {
+	.bar-graph,
+	.pie-graph {
 		width: 60%;
 	}
 
@@ -433,7 +436,6 @@ td {
 
 @media screen and (max-width: 800px) {
 
-			/*MAIN CONTENT STYLES*/
 	.main {
 		flex-direction: column;
 	}
@@ -442,8 +444,6 @@ td {
 		margin-bottom: 50px;
 	}
 
-			/*ASIDE STYLES*/
-	
 	.main-aside {
 		display: grid;
 		grid-template-columns: 50% 50%;
@@ -517,6 +517,14 @@ td {
 
 	#search-field {
 		border-bottom: 1px solid grey;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		width: 60vw;
+	}
+
+	.search-icon {
+		border-bottom: 1px solid grey;
 	}
 
 	.burger {
@@ -547,7 +555,6 @@ td {
 	}
 
 	.top-hdr-icon {
-		border-bottom: 1px solid grey;
     	width: 20vw;
 	}
 
@@ -567,10 +574,27 @@ td {
 		margin: 0px;
 	}
 
-	/*.main-aside {
-		grid-template-rows: 50% 50%;
-    	grid-template-columns: 100%;
-	}*/
+	.main-aside {
+    	align-items: center;
+		display: flex;
+    	flex-direction: column-reverse;
+	}
+
+	.aside-link-wrapper1,
+	.aside-link-wrapper2,
+	.aside-link-wrapper3 {
+		padding: 0px;
+    	margin: 0px;
+    	width: 90vw;
+	}
+
+	.aside-btn {
+		width: 90vw;
+	}
+
+	
+
+	
 
 	
 	
