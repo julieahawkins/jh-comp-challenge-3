@@ -230,6 +230,11 @@ main {
 	padding: 5px 16px;
 }
 
+.pie-graph {
+	width: 400px;
+    margin: 50px 20px;
+}
+
 .bar-graph {
 	margin: 20px;
 	width: 90%;
@@ -510,6 +515,10 @@ td {
 		display: none;
 	}
 
+	#search-field {
+		border-bottom: 1px solid grey;
+	}
+
 	.burger {
 		background: #374050;
 	}
@@ -528,6 +537,7 @@ td {
 		flex-direction: column;
     	position: absolute;
     	width: 120px;
+    	display:none;
 	}
 
 	.top-hdr-container {
@@ -537,7 +547,12 @@ td {
 	}
 
 	.top-hdr-icon {
+		border-bottom: 1px solid grey;
     	width: 20vw;
+	}
+
+	.pie-graph {
+		width: 75vw;
 	}
 
 	.bar-graph {
@@ -551,6 +566,13 @@ td {
 	table {
 		margin: 0px;
 	}
+
+	/*.main-aside {
+		grid-template-rows: 50% 50%;
+    	grid-template-columns: 100%;
+	}*/
+
+	
 	
 
 
